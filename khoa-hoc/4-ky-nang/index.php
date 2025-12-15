@@ -10,28 +10,26 @@ include __DIR__ . '/../../includes/navbar.php';
 ?>
 
 <!-- Hero -->
-<section class="hero" style="background: linear-gradient(135deg, #0D2396 0%, #1a3bb8 100%); padding: 80px 0;">
+<section class="hero">
     <div class="container">
-        <div class="grid-2" style="align-items: center;">
+        <div class="hero-grid">
             <div>
-                <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 8px 20px; border-radius: 20px; margin-bottom: 20px;">
-                    <span style="color: white; font-weight: 600;"><?php echo htmlspecialchars($meta['hero_badge']); ?></span>
+                <div class="hero-badge">
+                    <?php echo htmlspecialchars($meta['hero_badge']); ?>
                 </div>
-                <h1 style="color: white; margin-bottom: 20px;"><?php echo htmlspecialchars($meta['hero_heading']); ?></h1>
-                <p style="color: rgba(255,255,255,0.9); font-size: 1.125rem; margin-bottom: 30px;">
-                    <?php echo htmlspecialchars($meta['hero_subheading']); ?>
-                </p>
-                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-                    <a href="#registration" class="btn-primary" style="background: var(--color-orange);">
+                <h1><?php echo htmlspecialchars($meta['hero_heading']); ?></h1>
+                <p><?php echo htmlspecialchars($meta['hero_subheading']); ?></p>
+                <div class="hero-actions">
+                    <a href="#registration" class="btn btn-primary">
                         <i class="fas fa-edit"></i> Đăng Ký Ngay
                     </a>
-                    <a href="#curriculum" class="btn-primary" style="background: rgba(255,255,255,0.2); color: white;">
+                    <a href="#curriculum" class="btn btn-outline" style="border-color: white; color: white;">
                         <i class="fas fa-book"></i> Xem Chương Trình
                     </a>
                 </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/500x400/0D2396/FFFFFF?text=4+Skills" alt="Khóa học 4 kỹ năng" style="width: 100%; border-radius: var(--radius-lg); box-shadow: 0 20px 40px rgba(0,0,0,0.3);" ">
+                <img src="https://via.placeholder.com/500x400/0D2396/FFFFFF?text=4+Skills" alt="Khóa học 4 kỹ năng" class="hero-image">
             </div>
         </div>
     </div>

@@ -10,10 +10,10 @@ include __DIR__ . '/../../includes/navbar.php';
 ?>
 
 <!-- Page Header -->
-<section class="hero" style="padding: 60px 0; min-height: auto;">
+<section class="hero hero-compact">
     <div class="container">
         <h1><?php echo htmlspecialchars($meta['hero_heading']); ?></h1>
-        <p style="font-size: 1.125rem; max-width: 700px;"><?php echo htmlspecialchars($meta['hero_subheading']); ?></p>
+        <p><?php echo htmlspecialchars($meta['hero_subheading']); ?></p>
     </div>
 </section>
 

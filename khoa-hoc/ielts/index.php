@@ -10,28 +10,26 @@ include __DIR__ . '/../../includes/navbar.php';
 ?>
 
 <!-- Hero -->
-<section class="hero" style="background: linear-gradient(135deg, #F76010 0%, #fe8830 100%); padding: 80px 0;">
+<section class="hero hero-orange">
     <div class="container">
-        <div class="grid-2" style="align-items: center;">
+        <div class="hero-grid">
             <div>
-                <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 8px 20px; border-radius: 20px; margin-bottom: 20px;">
-                    <span style="color: white; font-weight: 600;"><?php echo htmlspecialchars($meta['hero_badge']); ?></span>
+                <div class="hero-badge">
+                    <?php echo htmlspecialchars($meta['hero_badge']); ?>
                 </div>
-                <h1 style="color: white; margin-bottom: 20px;"><?php echo htmlspecialchars($meta['hero_heading']); ?></h1>
-                <p style="color: rgba(255,255,255,0.95); font-size: 1.125rem; margin-bottom: 30px;">
-                    <?php echo htmlspecialchars($meta['hero_subheading']); ?>
-                </p>
-                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-                    <a href="#registration" class="btn-primary" style="background: white; color: var(--color-orange);">
+                <h1><?php echo htmlspecialchars($meta['hero_heading']); ?></h1>
+                <p><?php echo htmlspecialchars($meta['hero_subheading']); ?></p>
+                <div class="hero-actions">
+                    <a href="#registration" class="btn btn-primary" style="background: white; color: var(--color-orange);">
                         <i class="fas fa-edit"></i> Đăng Ký Học Thử
                     </a>
-                    <a href="#output-commitment" class="btn-primary" style="background: rgba(255,255,255,0.2); color: white;">
+                    <a href="#output-commitment" class="btn btn-outline" style="border-color: white; color: white;">
                         <i class="fas fa-certificate"></i> Cam Kết Đầu Ra
                     </a>
                 </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/500x400/F76010/FFFFFF?text=IELTS" alt="Khóa học IELTS" style="width: 100%; border-radius: var(--radius-lg); box-shadow: 0 20px 40px rgba(0,0,0,0.3);" ">
+                <img src="https://via.placeholder.com/500x400/F76010/FFFFFF?text=IELTS" alt="Khóa học IELTS" class="hero-image">
             </div>
         </div>
     </div>

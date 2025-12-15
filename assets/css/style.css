@@ -16,6 +16,8 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -25,6 +27,9 @@ body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 /* ========================================
@@ -76,34 +81,74 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', 'Segoe UI', sans-serif;
-    font-weight: 600;
-    line-height: 1.3;
+    font-weight: 700;
+    line-height: 1.2;
     color: var(--color-text-dark);
+    margin-bottom: var(--spacing-md);
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: var(--spacing-md);
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: var(--spacing-md);
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
 }
 
 h3 {
-    font-size: 1.5rem;
-    margin-bottom: var(--spacing-sm);
+    font-size: 1.75rem;
+    font-weight: 600;
 }
 
 h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h5 {
     font-size: 1.25rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* Subheading / Lead Text */
+.lead {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+    font-weight: 400;
+}
+
+/* Section Headings */
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
     margin-bottom: var(--spacing-sm);
+    color: var(--color-text-dark);
+}
+
+.section-subheading {
+    font-size: 1.125rem;
+    text-align: center;
+    color: var(--color-text-muted);
+    max-width: 700px;
+    margin: 0 auto var(--spacing-lg);
+    line-height: 1.7;
 }
 
 p {
     margin-bottom: var(--spacing-sm);
     line-height: 1.7;
+    font-size: 1rem;
 }
 
 a {
@@ -335,6 +380,7 @@ a:hover {
    HERO SECTION
 ======================================== */
 
+/* Hero Carousel (Homepage) */
 .hero-carousel {
     position: relative;
     height: 500px;
@@ -399,6 +445,101 @@ a:hover {
     background: var(--color-orange);
     width: 40px;
     border-radius: 6px;
+}
+
+/* Standard Hero Sections */
+.hero {
+    padding: var(--spacing-xxl) 0;
+    background: linear-gradient(135deg, var(--color-blue) 0%, #1a3bb8 100%);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6 {
+    color: var(--color-white) !important;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero p {
+    font-size: 1.125rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.8;
+}
+
+/* Hero Variants */
+.hero-orange {
+    background: linear-gradient(135deg, var(--color-orange) 0%, var(--color-orange-bright) 100%);
+}
+
+.hero-compact {
+    padding: var(--spacing-xl) 0;
+}
+
+/* Hero Badge */
+.hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+/* Hero Actions */
+.hero-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: var(--spacing-lg);
+}
+
+/* Hero Grid Layout */
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    align-items: center;
+    text-align: left;
+}
+
+/* Hero Feature List */
+.hero-features {
+    list-style: none;
+    margin-top: var(--spacing-md);
+}
+
+.hero-features li {
+    padding: 8px 0;
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.hero-features li i {
+    color: var(--color-orange-bright);
+    margin-right: 12px;
+}
+
+/* Hero Image */
+.hero-image {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    width: 100%;
+    height: auto;
 }
 
 /* ========================================
