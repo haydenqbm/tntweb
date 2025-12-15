@@ -1,0 +1,12 @@
+{
+  "title": "Góc Ba Mẹ - T&T Education SkillUp",
+  "description": "Thông tin dành cho phụ huynh về chất lượng giảng dạy, thành tích học viên và phản hồi từ gia đình tại T&T Education SkillUp.",
+  "keywords": ["góc ba mẹ", "phụ huynh", "thành tích học viên", "phản hồi", "đánh giá trung tâm"],
+  "og_image": "/assets/images/og-parents.jpg",
+  "canonical": "/goc-ba-me",
+  "hero_heading": "Góc Ba Mẹ",
+  "hero_subheading": "Cùng nhau xây dựng môi trường học tập tốt nhất cho con em chúng ta",
+  "additional_content": {
+    "sections_heading": "Thông Tin Dành Cho Phụ Huynh"
+  }
+}

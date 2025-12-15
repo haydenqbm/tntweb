@@ -1,0 +1,13 @@
+{
+  "title": "Liên Hệ - T&T Education SkillUp",
+  "description": "Liên hệ với T&T Education SkillUp - Nhận tư vấn chi tiết về khóa học, học phí và lộ trình học tập phù hợp. Hotline: 1900 555 689",
+  "keywords": ["liên hệ", "tư vấn khóa học", "đăng ký học", "hotline T&T Education", "địa chỉ trung tâm"],
+  "og_image": "/assets/images/og-contact.jpg",
+  "canonical": "/lien-he",
+  "hero_heading": "Liên Hệ Với Chúng Tôi",
+  "hero_subheading": "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. Hãy để lại thông tin, T&T sẽ liên hệ tư vấn chi tiết trong 24h",
+  "additional_content": {
+    "form_heading": "Gửi Tin Nhắn",
+    "info_heading": "Thông Tin Liên Hệ"
+  }
+}

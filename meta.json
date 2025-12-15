@@ -1,0 +1,25 @@
+{
+  "title": "T&T Education SkillUp - Nâng Tầm Kỹ Năng Tiếng Anh",
+  "description": "Trung tâm Anh ngữ T&T Education SkillUp - Phương pháp giảng dạy tiên tiến, giáo viên tận tâm, cam kết đầu ra rõ ràng. Khóa học 4 kỹ năng và IELTS chất lượng cao.",
+  "keywords": ["học tiếng anh", "trung tâm anh ngữ", "IELTS", "4 kỹ năng", "học tiếng anh giao tiếp", "T&T Education", "SkillUp"],
+  "og_image": "/assets/images/og-home.jpg",
+  "canonical": "/",
+  "hero_carousel": [
+    {
+      "heading": "Nâng Tầm Kỹ Năng Tiếng Anh Cùng T&T Education",
+      "subheading": "Phương pháp giảng dạy hiện đại, giáo viên tận tâm, cam kết đầu ra rõ ràng. Khơi dậy tiềm năng và tự tin giao tiếp cho con bạn."
+    },
+    {
+      "heading": "Khóa Học 4 Kỹ Năng - Nền Tảng Vững Chắc",
+      "subheading": "Phát triển toàn diện Nghe - Nói - Đọc - Viết. Lộ trình học tập cá nhân hóa phù hợp với từng độ tuổi và trình độ của học viên."
+    },
+    {
+      "heading": "Luyện Thi IELTS - Chinh Phục Mục Tiêu",
+      "subheading": "Đội ngũ giáo viên giàu kinh nghiệm, phương pháp luyện thi hiệu quả. Cam kết đạt band điểm mục tiêu hoặc học lại miễn phí."
+    }
+  ],
+  "additional_content": {
+    "courses_section_heading": "Khóa Học Nổi Bật",
+    "courses_section_subheading": "Chương trình đào tạo toàn diện, phù hợp với mọi lứa tuổi và trình độ"
+  }
+}

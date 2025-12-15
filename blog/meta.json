@@ -1,0 +1,12 @@
+{
+  "title": "Blog - T&T Education SkillUp",
+  "description": "Kiến thức học tiếng Anh, tips luyện thi IELTS, kinh nghiệm học tập và các câu chuyện thành công từ T&T Education SkillUp.",
+  "keywords": ["blog tiếng anh", "mẹo học IELTS", "tips học tiếng anh", "kiến thức tiếng anh", "kinh nghiệm học tập"],
+  "og_image": "/assets/images/og-blog.jpg",
+  "canonical": "/blog",
+  "hero_heading": "Blog T&T Education",
+  "hero_subheading": "Kiến thức bổ ích về học tiếng Anh, luyện thi IELTS và tips học tập hiệu quả",
+  "additional_content": {
+    "categories_heading": "Chủ Đề"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Giới Thiệu - T&T Education SkillUp",
+  "description": "Tìm hiểu về T&T Education SkillUp - Trung tâm Anh ngữ uy tín với đội ngũ giáo viên chất lượng, phương pháp giảng dạy hiện đại và cam kết đầu ra rõ ràng.",
+  "keywords": ["giới thiệu T&T Education", "về chúng tôi", "trung tâm anh ngữ uy tín", "đội ngũ giáo viên", "phương pháp giảng dạy"],
+  "og_image": "/assets/images/og-about.jpg",
+  "canonical": "/gioi-thieu",
+  "hero_heading": "Về T&T Education SkillUp",
+  "hero_subheading": "Hành trình 10 năm kiến tạo môi trường học tập tiếng Anh chất lượng cao, nơi mỗi học viên đều được tôn trọng và phát triển toàn diện",
+  "additional_content": {
+    "story_heading": "Câu Chuyện Của Chúng Tôi",
+    "mission_vision_heading": "Sứ Mệnh & Tầm Nhìn",
+    "core_values_heading": "Giá Trị Cốt Lõi",
+    "core_values_subheading": "Những nguyên tắc định hướng mọi hoạt động của chúng tôi"
+  }
+}

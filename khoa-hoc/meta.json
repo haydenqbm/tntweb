@@ -1,0 +1,13 @@
+{
+  "title": "Khóa Học - T&T Education SkillUp",
+  "description": "Khám phá các khóa học tiếng Anh chất lượng tại T&T Education SkillUp - Từ 4 kỹ năng nền tảng đến luyện thi IELTS chuyên sâu với giáo viên giàu kinh nghiệm.",
+  "keywords": ["khóa học tiếng anh", "lớp tiếng anh", "học 4 kỹ năng", "luyện thi IELTS", "khóa học giao tiếp"],
+  "og_image": "/assets/images/og-courses.jpg",
+  "canonical": "/khoa-hoc",
+  "hero_heading": "Khóa Học Tiếng Anh",
+  "hero_subheading": "Chương trình đào tạo toàn diện, từ nền tảng đến nâng cao, giúp bạn tự tin giao tiếp và đạt mục tiêu IELTS",
+  "additional_content": {
+    "programs_heading": "Chương Trình Đào Tạo",
+    "programs_subheading": "Lộ trình học tập khoa học, phù hợp với mọi trình độ"
+  }
+}

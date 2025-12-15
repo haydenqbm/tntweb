@@ -1,0 +1,13 @@
+{
+  "title": "Thành Tích Học Viên - T&T Education SkillUp",
+  "description": "Bảng vàng thành tích học viên T&T Education SkillUp - Những kết quả IELTS ấn tượng, học bổng quốc tế và hành trình chinh phục tiếng Anh thành công.",
+  "keywords": ["thành tích học viên", "IELTS 8.0", "học bổng du học", "kết quả IELTS", "câu chuyện thành công"],
+  "og_image": "/assets/images/og-achievements.jpg",
+  "canonical": "/goc-ba-me/thanh-tich-hoc-vien",
+  "hero_heading": "Thành Tích Học Viên",
+  "hero_subheading": "Tự hào với những thành công của học viên - động lực để T&T không ngừng nỗ lực và phát triển",
+  "additional_content": {
+    "high_scorers_heading": "Bảng Vàng IELTS 8.0+",
+    "high_scorers_subheading": "Những thành tích IELTS ấn tượng nhất của học viên T&T"
+  }
+}
